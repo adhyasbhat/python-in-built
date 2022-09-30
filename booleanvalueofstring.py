@@ -1,0 +1,30 @@
+a = "hi how are you"
+b = "HI HOW ARE YOU"
+c = '123'
+d = 'hello'
+e = " "
+print(a.islower())
+print(a.isupper())
+print(a.isdigit())
+print(a.isalpha())
+print("----------------")
+print(b.islower())
+print(b.isupper())
+print(b.isdigit())
+print(b.isalpha())
+print("----------------")
+print(c.islower())
+print(c.isupper())
+print(c.isdigit())
+print(c.isalpha())
+print("----------------")
+print(d.islower())
+print(d.isupper())
+print(d.isdigit())
+print(d.isalpha())
+print(d.isspace())
+print("----------------")
+print(e.islower())
+print(e.isupper())
+print(e.isdigit())
+print(e.isspace())

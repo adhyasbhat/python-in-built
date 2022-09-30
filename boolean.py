@@ -1,0 +1,11 @@
+print(isinstance(5,int))
+print(isinstance(2,float))
+print(isinstance(10+8j,complex))
+# print(isinstance(10+j8,complex))
+print(isinstance(4,(int,float,complex)))
+print("--------")
+print(int(True))
+print(bool(-2))
+x = 1.2345
+print(round(x,3))
+print(divmod(4,3))

@@ -1,0 +1,12 @@
+# converts the string into list (return type of split is list)
+s = "hi adhya how are you "
+print(s.split())
+print('this is my string'.split('s'))
+print('this is my first string'.split(maxsplit=2))
+print('this is my first string'.split(maxsplit=3))
+print('this is my string'.rsplit('s'))
+print('this is my string'.ssplit('s'))
+print('this is my first string'.ssplit(maxsplit=2))
+print('this is my first string'.rsplit(maxsplit=2))
+print('this is my first string'.rplit("",2))
+print('this is my first string'.rsplit("",2))
